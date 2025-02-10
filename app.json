@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "kitchen-game",
+    "name": "Kaly",
     "slug": "kitchen-game",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/kaa.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/Kaly.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Kaly.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.valisoa.kitchengame"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/kaa.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cd9aede4-dd9a-4ad7-a022-6e5d001317ee"
+      }
     }
   }
 }
